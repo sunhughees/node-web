@@ -1,0 +1,1418 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'cnpm',
+1 verbose cli   '--registry=https://registry.npm.taobao.org' ]
+2 info using npm@3.3.6
+3 info using node@v5.0.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData cnpm
+8 silly fetchNamedPackageData cnpm
+9 silly mapToRegistry name cnpm
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npm.taobao.org/
+12 silly mapToRegistry uri https://registry.npm.taobao.org/cnpm
+13 verbose request uri https://registry.npm.taobao.org/cnpm
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 4:00:56 PM
+16 verbose request id 1fc5a0807434a837
+17 http request GET https://registry.npm.taobao.org/cnpm
+18 http 200 https://registry.npm.taobao.org/cnpm
+19 verbose headers { date: 'Tue, 05 Apr 2016 08:00:57 GMT',
+19 verbose headers   'content-type': 'application/json; charset=utf-8',
+19 verbose headers   'content-length': '142753',
+19 verbose headers   connection: 'keep-alive',
+19 verbose headers   etag: '"22da1-8hu1TD1pfrizMnPYDyg+Dg"',
+19 verbose headers   'x-readtime': '70' }
+20 silly get cb [ 200,
+20 silly get   { date: 'Tue, 05 Apr 2016 08:00:57 GMT',
+20 silly get     'content-type': 'application/json; charset=utf-8',
+20 silly get     'content-length': '142753',
+20 silly get     connection: 'keep-alive',
+20 silly get     etag: '"22da1-8hu1TD1pfrizMnPYDyg+Dg"',
+20 silly get     'x-readtime': '70' } ]
+21 verbose get saving cnpm to /home/sven/.npm/registry.npm.taobao.org/cnpm/.cache.json
+22 silly install normalizeTree
+23 silly loadCurrentTree Finishing
+24 silly loadIdealTree Starting
+25 silly install loadIdealTree
+26 silly cloneCurrentTree Starting
+27 silly install cloneCurrentTreeToIdealTree
+28 silly cloneCurrentTree Finishing
+29 silly loadShrinkwrap Starting
+30 silly install loadShrinkwrap
+31 silly loadShrinkwrap Finishing
+32 silly loadAllDepsIntoIdealTree Starting
+33 silly install loadAllDepsIntoIdealTree
+34 silly resolveWithNewModule cnpm@4.2.0 checking installable status
+35 silly cache add args [ 'cnpm', null ]
+36 verbose cache add spec cnpm
+37 silly cache add parsed spec Result {
+37 silly cache add   raw: 'cnpm',
+37 silly cache add   scope: null,
+37 silly cache add   name: 'cnpm',
+37 silly cache add   rawSpec: '',
+37 silly cache add   spec: '*',
+37 silly cache add   type: 'range' }
+38 silly addNamed cnpm@*
+39 verbose addNamed "*" is a valid semver range for cnpm
+40 silly addNameRange { name: 'cnpm', range: '*', hasData: false }
+41 silly mapToRegistry name cnpm
+42 silly mapToRegistry using default registry
+43 silly mapToRegistry registry https://registry.npm.taobao.org/
+44 silly mapToRegistry uri https://registry.npm.taobao.org/cnpm
+45 verbose addNameRange registry:https://registry.npm.taobao.org/cnpm not in flight; fetching
+46 verbose get https://registry.npm.taobao.org/cnpm not expired, no request
+47 silly addNameRange number 2 { name: 'cnpm', range: '*', hasData: true }
+48 silly addNameRange versions [ 'cnpm',
+48 silly addNameRange   [ '4.2.0',
+48 silly addNameRange     '4.2.0-beta.5',
+48 silly addNameRange     '4.2.0-beta.4',
+48 silly addNameRange     '4.2.0-beta.3',
+48 silly addNameRange     '4.2.0-beta.2',
+48 silly addNameRange     '4.2.0-beta.1',
+48 silly addNameRange     '3.4.1',
+48 silly addNameRange     '3.4.0',
+48 silly addNameRange     '3.3.1',
+48 silly addNameRange     '4.1.0',
+48 silly addNameRange     '3.3.0',
+48 silly addNameRange     '4.0.0',
+48 silly addNameRange     '3.2.3',
+48 silly addNameRange     '3.2.2',
+48 silly addNameRange     '3.2.1',
+48 silly addNameRange     '3.2.0',
+48 silly addNameRange     '3.1.0',
+48 silly addNameRange     '3.0.2',
+48 silly addNameRange     '3.0.1',
+48 silly addNameRange     '3.0.0',
+48 silly addNameRange     '2.0.1',
+48 silly addNameRange     '2.0.0',
+48 silly addNameRange     '1.2.0',
+48 silly addNameRange     '1.1.0',
+48 silly addNameRange     '1.0.0',
+48 silly addNameRange     '0.5.2',
+48 silly addNameRange     '0.5.0',
+48 silly addNameRange     '0.4.0',
+48 silly addNameRange     '0.3.0',
+48 silly addNameRange     '0.2.2',
+48 silly addNameRange     '0.2.1',
+48 silly addNameRange     '0.2.0',
+48 silly addNameRange     '0.1.3',
+48 silly addNameRange     '0.1.2',
+48 silly addNameRange     '0.1.1',
+48 silly addNameRange     '0.1.0',
+48 silly addNameRange     '0.0.35',
+48 silly addNameRange     '0.0.34',
+48 silly addNameRange     '0.0.33',
+48 silly addNameRange     '0.0.32',
+48 silly addNameRange     '0.0.31',
+48 silly addNameRange     '0.0.30',
+48 silly addNameRange     '0.0.29',
+48 silly addNameRange     '0.0.28',
+48 silly addNameRange     '0.0.27',
+48 silly addNameRange     '0.0.26',
+48 silly addNameRange     '0.0.25',
+48 silly addNameRange     '0.0.24',
+48 silly addNameRange     '0.0.23',
+48 silly addNameRange     '0.0.22',
+48 silly addNameRange     '0.0.21',
+48 silly addNameRange     '0.0.20',
+48 silly addNameRange     '0.0.19',
+48 silly addNameRange     '0.0.18',
+48 silly addNameRange     '0.0.17',
+48 silly addNameRange     '0.0.16',
+48 silly addNameRange     '0.0.15',
+48 silly addNameRange     '0.0.14',
+48 silly addNameRange     '0.0.13',
+48 silly addNameRange     '0.0.12',
+48 silly addNameRange     '0.0.11',
+48 silly addNameRange     '0.0.10',
+48 silly addNameRange     '0.0.9',
+48 silly addNameRange     '0.0.8',
+48 silly addNameRange     '0.0.7',
+48 silly addNameRange     '0.0.6',
+48 silly addNameRange     '0.0.5',
+48 silly addNameRange     '0.0.4',
+48 silly addNameRange     '0.0.3',
+48 silly addNameRange     '0.0.2',
+48 silly addNameRange     '0.0.1',
+48 silly addNameRange     '0.0.0' ] ]
+49 silly addNamed cnpm@4.2.0
+50 verbose addNamed "4.2.0" is a plain semver version for cnpm
+51 silly mapToRegistry name cnpm
+52 silly mapToRegistry using default registry
+53 silly mapToRegistry registry https://registry.npm.taobao.org/
+54 silly mapToRegistry uri https://registry.npm.taobao.org/cnpm
+55 verbose addRemoteTarball https://registry.npm.taobao.org/cnpm/download/cnpm-4.2.0.tgz not in flight; adding
+56 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/cnpm/download/cnpm-4.2.0.tgz',
+56 verbose addRemoteTarball   '7b59c8f5c23fda615bb4fc7b84de46c4bbb4880c' ]
+57 info retry fetch attempt 1 at 4:00:58 PM
+58 info attempt registry request try #1 at 4:00:58 PM
+59 http fetch GET https://registry.npm.taobao.org/cnpm/download/cnpm-4.2.0.tgz
+60 http fetch 200 https://registry.npm.taobao.org/cnpm/download/cnpm-4.2.0.tgz
+61 silly fetchAndShaCheck shasum 7b59c8f5c23fda615bb4fc7b84de46c4bbb4880c
+62 verbose addTmpTarball /tmp/npm-5942-50d44ea4/registry.npm.taobao.org/cnpm/download/cnpm-4.2.0.tgz not in flight; adding
+63 verbose addTmpTarball already have metadata; skipping unpack for cnpm@4.2.0
+64 silly cache afterAdd cnpm@4.2.0
+65 verbose afterAdd /home/sven/.npm/cnpm/4.2.0/package/package.json not in flight; writing
+66 verbose afterAdd /home/sven/.npm/cnpm/4.2.0/package/package.json written
+67 silly fetchNamedPackageData auto-correct
+68 silly mapToRegistry name auto-correct
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry https://registry.npm.taobao.org/
+71 silly mapToRegistry uri https://registry.npm.taobao.org/auto-correct
+72 silly fetchNamedPackageData bagpipe
+73 silly mapToRegistry name bagpipe
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npm.taobao.org/
+76 silly mapToRegistry uri https://registry.npm.taobao.org/bagpipe
+77 silly fetchNamedPackageData colors
+78 silly mapToRegistry name colors
+79 silly mapToRegistry using default registry
+80 silly mapToRegistry registry https://registry.npm.taobao.org/
+81 silly mapToRegistry uri https://registry.npm.taobao.org/colors
+82 silly fetchNamedPackageData commander
+83 silly mapToRegistry name commander
+84 silly mapToRegistry using default registry
+85 silly mapToRegistry registry https://registry.npm.taobao.org/
+86 silly mapToRegistry uri https://registry.npm.taobao.org/commander
+87 silly fetchNamedPackageData cross-spawn
+88 silly mapToRegistry name cross-spawn
+89 silly mapToRegistry using default registry
+90 silly mapToRegistry registry https://registry.npm.taobao.org/
+91 silly mapToRegistry uri https://registry.npm.taobao.org/cross-spawn
+92 silly fetchNamedPackageData debug
+93 silly mapToRegistry name debug
+94 silly mapToRegistry using default registry
+95 silly mapToRegistry registry https://registry.npm.taobao.org/
+96 silly mapToRegistry uri https://registry.npm.taobao.org/debug
+97 silly fetchNamedPackageData giturl
+98 silly mapToRegistry name giturl
+99 silly mapToRegistry using default registry
+100 silly mapToRegistry registry https://registry.npm.taobao.org/
+101 silly mapToRegistry uri https://registry.npm.taobao.org/giturl
+102 silly fetchNamedPackageData npm
+103 silly mapToRegistry name npm
+104 silly mapToRegistry using default registry
+105 silly mapToRegistry registry https://registry.npm.taobao.org/
+106 silly mapToRegistry uri https://registry.npm.taobao.org/npm
+107 silly fetchNamedPackageData npm-request
+108 silly mapToRegistry name npm-request
+109 silly mapToRegistry using default registry
+110 silly mapToRegistry registry https://registry.npm.taobao.org/
+111 silly mapToRegistry uri https://registry.npm.taobao.org/npm-request
+112 silly fetchNamedPackageData open
+113 silly mapToRegistry name open
+114 silly mapToRegistry using default registry
+115 silly mapToRegistry registry https://registry.npm.taobao.org/
+116 silly mapToRegistry uri https://registry.npm.taobao.org/open
+117 silly fetchNamedPackageData urllib
+118 silly mapToRegistry name urllib
+119 silly mapToRegistry using default registry
+120 silly mapToRegistry registry https://registry.npm.taobao.org/
+121 silly mapToRegistry uri https://registry.npm.taobao.org/urllib
+122 silly fetchNamedPackageData npminstall
+123 silly mapToRegistry name npminstall
+124 silly mapToRegistry using default registry
+125 silly mapToRegistry registry https://registry.npm.taobao.org/
+126 silly mapToRegistry uri https://registry.npm.taobao.org/npminstall
+127 verbose request uri https://registry.npm.taobao.org/auto-correct
+128 verbose request no auth needed
+129 info attempt registry request try #1 at 4:00:58 PM
+130 http request GET https://registry.npm.taobao.org/auto-correct
+131 verbose request uri https://registry.npm.taobao.org/bagpipe
+132 verbose request no auth needed
+133 info attempt registry request try #1 at 4:00:58 PM
+134 http request GET https://registry.npm.taobao.org/bagpipe
+135 verbose request uri https://registry.npm.taobao.org/colors
+136 verbose request no auth needed
+137 info attempt registry request try #1 at 4:00:58 PM
+138 http request GET https://registry.npm.taobao.org/colors
+139 verbose request uri https://registry.npm.taobao.org/commander
+140 verbose request no auth needed
+141 info attempt registry request try #1 at 4:00:58 PM
+142 http request GET https://registry.npm.taobao.org/commander
+143 verbose request uri https://registry.npm.taobao.org/cross-spawn
+144 verbose request no auth needed
+145 info attempt registry request try #1 at 4:00:58 PM
+146 http request GET https://registry.npm.taobao.org/cross-spawn
+147 verbose request uri https://registry.npm.taobao.org/debug
+148 verbose request no auth needed
+149 info attempt registry request try #1 at 4:00:58 PM
+150 http request GET https://registry.npm.taobao.org/debug
+151 verbose request uri https://registry.npm.taobao.org/giturl
+152 verbose request no auth needed
+153 info attempt registry request try #1 at 4:00:58 PM
+154 http request GET https://registry.npm.taobao.org/giturl
+155 verbose request uri https://registry.npm.taobao.org/npm
+156 verbose request no auth needed
+157 info attempt registry request try #1 at 4:00:58 PM
+158 http request GET https://registry.npm.taobao.org/npm
+159 verbose request uri https://registry.npm.taobao.org/npm-request
+160 verbose request no auth needed
+161 info attempt registry request try #1 at 4:00:58 PM
+162 http request GET https://registry.npm.taobao.org/npm-request
+163 verbose request uri https://registry.npm.taobao.org/open
+164 verbose request no auth needed
+165 info attempt registry request try #1 at 4:00:58 PM
+166 http request GET https://registry.npm.taobao.org/open
+167 verbose request uri https://registry.npm.taobao.org/urllib
+168 verbose request no auth needed
+169 info attempt registry request try #1 at 4:00:58 PM
+170 http request GET https://registry.npm.taobao.org/urllib
+171 verbose request uri https://registry.npm.taobao.org/npminstall
+172 verbose request no auth needed
+173 info attempt registry request try #1 at 4:00:58 PM
+174 http request GET https://registry.npm.taobao.org/npminstall
+175 http 200 https://registry.npm.taobao.org/auto-correct
+176 verbose headers { date: 'Tue, 05 Apr 2016 08:00:58 GMT',
+176 verbose headers   'content-type': 'application/json; charset=utf-8',
+176 verbose headers   'content-length': '2117',
+176 verbose headers   connection: 'keep-alive',
+176 verbose headers   etag: '"845-xaOBnHnPADe4vOFPQ6EHjw"',
+176 verbose headers   'x-readtime': '16' }
+177 silly get cb [ 200,
+177 silly get   { date: 'Tue, 05 Apr 2016 08:00:58 GMT',
+177 silly get     'content-type': 'application/json; charset=utf-8',
+177 silly get     'content-length': '2117',
+177 silly get     connection: 'keep-alive',
+177 silly get     etag: '"845-xaOBnHnPADe4vOFPQ6EHjw"',
+177 silly get     'x-readtime': '16' } ]
+178 verbose get saving auto-correct to /home/sven/.npm/registry.npm.taobao.org/auto-correct/.cache.json
+179 silly resolveWithNewModule auto-correct@1.0.0 checking installable status
+180 silly cache add args [ 'auto-correct@^1.0.0', null ]
+181 verbose cache add spec auto-correct@^1.0.0
+182 silly cache add parsed spec Result {
+182 silly cache add   raw: 'auto-correct@^1.0.0',
+182 silly cache add   scope: null,
+182 silly cache add   name: 'auto-correct',
+182 silly cache add   rawSpec: '^1.0.0',
+182 silly cache add   spec: '>=1.0.0 <2.0.0',
+182 silly cache add   type: 'range' }
+183 silly addNamed auto-correct@>=1.0.0 <2.0.0
+184 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for auto-correct
+185 silly addNameRange { name: 'auto-correct', range: '>=1.0.0 <2.0.0', hasData: false }
+186 silly mapToRegistry name auto-correct
+187 silly mapToRegistry using default registry
+188 silly mapToRegistry registry https://registry.npm.taobao.org/
+189 silly mapToRegistry uri https://registry.npm.taobao.org/auto-correct
+190 verbose addNameRange registry:https://registry.npm.taobao.org/auto-correct not in flight; fetching
+191 verbose get https://registry.npm.taobao.org/auto-correct not expired, no request
+192 silly addNameRange number 2 { name: 'auto-correct', range: '>=1.0.0 <2.0.0', hasData: true }
+193 silly addNameRange versions [ 'auto-correct', [ '1.0.0' ] ]
+194 silly addNamed auto-correct@1.0.0
+195 verbose addNamed "1.0.0" is a plain semver version for auto-correct
+196 silly mapToRegistry name auto-correct
+197 silly mapToRegistry using default registry
+198 silly mapToRegistry registry https://registry.npm.taobao.org/
+199 silly mapToRegistry uri https://registry.npm.taobao.org/auto-correct
+200 verbose addRemoteTarball https://registry.npm.taobao.org/auto-correct/download/auto-correct-1.0.0.tgz not in flight; adding
+201 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/auto-correct/download/auto-correct-1.0.0.tgz',
+201 verbose addRemoteTarball   '9865d9a2c1a7118421f5f0654f685fbeb41b034b' ]
+202 info retry fetch attempt 1 at 4:00:58 PM
+203 info attempt registry request try #1 at 4:00:58 PM
+204 http fetch GET https://registry.npm.taobao.org/auto-correct/download/auto-correct-1.0.0.tgz
+205 http 200 https://registry.npm.taobao.org/bagpipe
+206 verbose headers { date: 'Tue, 05 Apr 2016 08:00:58 GMT',
+206 verbose headers   'content-type': 'application/json; charset=utf-8',
+206 verbose headers   'content-length': '12976',
+206 verbose headers   connection: 'keep-alive',
+206 verbose headers   etag: '"32b0-lxUgg3nf9Oyu9cZOe3NmSg"',
+206 verbose headers   'x-readtime': '20' }
+207 silly get cb [ 200,
+207 silly get   { date: 'Tue, 05 Apr 2016 08:00:58 GMT',
+207 silly get     'content-type': 'application/json; charset=utf-8',
+207 silly get     'content-length': '12976',
+207 silly get     connection: 'keep-alive',
+207 silly get     etag: '"32b0-lxUgg3nf9Oyu9cZOe3NmSg"',
+207 silly get     'x-readtime': '20' } ]
+208 verbose get saving bagpipe to /home/sven/.npm/registry.npm.taobao.org/bagpipe/.cache.json
+209 http 200 https://registry.npm.taobao.org/giturl
+210 verbose headers { date: 'Tue, 05 Apr 2016 08:00:58 GMT',
+210 verbose headers   'content-type': 'application/json; charset=utf-8',
+210 verbose headers   'content-length': '9190',
+210 verbose headers   connection: 'keep-alive',
+210 verbose headers   etag: '"23e6-bp2MCbduNrHpgc0q3XhQpg"',
+210 verbose headers   'x-readtime': '22' }
+211 silly get cb [ 200,
+211 silly get   { date: 'Tue, 05 Apr 2016 08:00:58 GMT',
+211 silly get     'content-type': 'application/json; charset=utf-8',
+211 silly get     'content-length': '9190',
+211 silly get     connection: 'keep-alive',
+211 silly get     etag: '"23e6-bp2MCbduNrHpgc0q3XhQpg"',
+211 silly get     'x-readtime': '22' } ]
+212 verbose get saving giturl to /home/sven/.npm/registry.npm.taobao.org/giturl/.cache.json
+213 silly resolveWithNewModule bagpipe@0.3.5 checking installable status
+214 silly cache add args [ 'bagpipe@^0.3.5', null ]
+215 verbose cache add spec bagpipe@^0.3.5
+216 silly cache add parsed spec Result {
+216 silly cache add   raw: 'bagpipe@^0.3.5',
+216 silly cache add   scope: null,
+216 silly cache add   name: 'bagpipe',
+216 silly cache add   rawSpec: '^0.3.5',
+216 silly cache add   spec: '>=0.3.5 <0.4.0',
+216 silly cache add   type: 'range' }
+217 silly addNamed bagpipe@>=0.3.5 <0.4.0
+218 verbose addNamed ">=0.3.5 <0.4.0" is a valid semver range for bagpipe
+219 silly addNameRange { name: 'bagpipe', range: '>=0.3.5 <0.4.0', hasData: false }
+220 silly mapToRegistry name bagpipe
+221 silly mapToRegistry using default registry
+222 silly mapToRegistry registry https://registry.npm.taobao.org/
+223 silly mapToRegistry uri https://registry.npm.taobao.org/bagpipe
+224 verbose addNameRange registry:https://registry.npm.taobao.org/bagpipe not in flight; fetching
+225 silly resolveWithNewModule giturl@1.0.0 checking installable status
+226 silly cache add args [ 'giturl@^1.0.0', null ]
+227 verbose cache add spec giturl@^1.0.0
+228 silly cache add parsed spec Result {
+228 silly cache add   raw: 'giturl@^1.0.0',
+228 silly cache add   scope: null,
+228 silly cache add   name: 'giturl',
+228 silly cache add   rawSpec: '^1.0.0',
+228 silly cache add   spec: '>=1.0.0 <2.0.0',
+228 silly cache add   type: 'range' }
+229 silly addNamed giturl@>=1.0.0 <2.0.0
+230 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for giturl
+231 silly addNameRange { name: 'giturl', range: '>=1.0.0 <2.0.0', hasData: false }
+232 silly mapToRegistry name giturl
+233 silly mapToRegistry using default registry
+234 silly mapToRegistry registry https://registry.npm.taobao.org/
+235 silly mapToRegistry uri https://registry.npm.taobao.org/giturl
+236 verbose addNameRange registry:https://registry.npm.taobao.org/giturl not in flight; fetching
+237 verbose get https://registry.npm.taobao.org/bagpipe not expired, no request
+238 silly addNameRange number 2 { name: 'bagpipe', range: '>=0.3.5 <0.4.0', hasData: true }
+239 silly addNameRange versions [ 'bagpipe',
+239 silly addNameRange   [ '0.3.5',
+239 silly addNameRange     '0.3.4',
+239 silly addNameRange     '0.3.3',
+239 silly addNameRange     '0.3.2',
+239 silly addNameRange     '0.3.1',
+239 silly addNameRange     '0.3.0',
+239 silly addNameRange     '0.2.0',
+239 silly addNameRange     '0.0.1' ] ]
+240 silly addNamed bagpipe@0.3.5
+241 verbose addNamed "0.3.5" is a plain semver version for bagpipe
+242 verbose get https://registry.npm.taobao.org/giturl not expired, no request
+243 silly addNameRange number 2 { name: 'giturl', range: '>=1.0.0 <2.0.0', hasData: true }
+244 silly addNameRange versions [ 'giturl', [ '1.0.0', '0.0.3', '0.0.2', '0.0.1' ] ]
+245 silly addNamed giturl@1.0.0
+246 verbose addNamed "1.0.0" is a plain semver version for giturl
+247 silly mapToRegistry name bagpipe
+248 silly mapToRegistry using default registry
+249 silly mapToRegistry registry https://registry.npm.taobao.org/
+250 silly mapToRegistry uri https://registry.npm.taobao.org/bagpipe
+251 verbose addRemoteTarball https://registry.npm.taobao.org/bagpipe/download/bagpipe-0.3.5.tgz not in flight; adding
+252 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/bagpipe/download/bagpipe-0.3.5.tgz',
+252 verbose addRemoteTarball   'e341d164fcb24cdf04ea7e05b765ec10c8aea6a1' ]
+253 silly mapToRegistry name giturl
+254 silly mapToRegistry using default registry
+255 silly mapToRegistry registry https://registry.npm.taobao.org/
+256 silly mapToRegistry uri https://registry.npm.taobao.org/giturl
+257 verbose addRemoteTarball https://registry.npm.taobao.org/giturl/download/giturl-1.0.0.tgz not in flight; adding
+258 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/giturl/download/giturl-1.0.0.tgz',
+258 verbose addRemoteTarball   '9732a81e9e25c457a22f0e2ca1c9c51dbbb5325f' ]
+259 info retry fetch attempt 1 at 4:00:58 PM
+260 info attempt registry request try #1 at 4:00:58 PM
+261 http fetch GET https://registry.npm.taobao.org/bagpipe/download/bagpipe-0.3.5.tgz
+262 info retry fetch attempt 1 at 4:00:58 PM
+263 info attempt registry request try #1 at 4:00:58 PM
+264 http fetch GET https://registry.npm.taobao.org/giturl/download/giturl-1.0.0.tgz
+265 http 200 https://registry.npm.taobao.org/open
+266 verbose headers { date: 'Tue, 05 Apr 2016 08:00:58 GMT',
+266 verbose headers   'content-type': 'application/json; charset=utf-8',
+266 verbose headers   'content-length': '7774',
+266 verbose headers   connection: 'keep-alive',
+266 verbose headers   etag: '"1e5e-3j+wSxc4P0KJz6KnNur+Gg"',
+266 verbose headers   'x-readtime': '33' }
+267 silly get cb [ 200,
+267 silly get   { date: 'Tue, 05 Apr 2016 08:00:58 GMT',
+267 silly get     'content-type': 'application/json; charset=utf-8',
+267 silly get     'content-length': '7774',
+267 silly get     connection: 'keep-alive',
+267 silly get     etag: '"1e5e-3j+wSxc4P0KJz6KnNur+Gg"',
+267 silly get     'x-readtime': '33' } ]
+268 verbose get saving open to /home/sven/.npm/registry.npm.taobao.org/open/.cache.json
+269 silly resolveWithNewModule open@0.0.5 checking installable status
+270 silly cache add args [ 'open@~0.0.5', null ]
+271 verbose cache add spec open@~0.0.5
+272 silly cache add parsed spec Result {
+272 silly cache add   raw: 'open@~0.0.5',
+272 silly cache add   scope: null,
+272 silly cache add   name: 'open',
+272 silly cache add   rawSpec: '~0.0.5',
+272 silly cache add   spec: '>=0.0.5 <0.1.0',
+272 silly cache add   type: 'range' }
+273 silly addNamed open@>=0.0.5 <0.1.0
+274 verbose addNamed ">=0.0.5 <0.1.0" is a valid semver range for open
+275 silly addNameRange { name: 'open', range: '>=0.0.5 <0.1.0', hasData: false }
+276 silly mapToRegistry name open
+277 silly mapToRegistry using default registry
+278 silly mapToRegistry registry https://registry.npm.taobao.org/
+279 silly mapToRegistry uri https://registry.npm.taobao.org/open
+280 verbose addNameRange registry:https://registry.npm.taobao.org/open not in flight; fetching
+281 verbose get https://registry.npm.taobao.org/open not expired, no request
+282 silly addNameRange number 2 { name: 'open', range: '>=0.0.5 <0.1.0', hasData: true }
+283 silly addNameRange versions [ 'open', [ '0.0.5', '0.0.4', '0.0.3', '0.0.2', '0.0.0' ] ]
+284 silly addNamed open@0.0.5
+285 verbose addNamed "0.0.5" is a plain semver version for open
+286 silly mapToRegistry name open
+287 silly mapToRegistry using default registry
+288 silly mapToRegistry registry https://registry.npm.taobao.org/
+289 silly mapToRegistry uri https://registry.npm.taobao.org/open
+290 verbose addRemoteTarball https://registry.npm.taobao.org/open/download/open-0.0.5.tgz not in flight; adding
+291 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/open/download/open-0.0.5.tgz',
+291 verbose addRemoteTarball   '42c3e18ec95466b6bf0dc42f3a2945c3f0cad8fc' ]
+292 info retry fetch attempt 1 at 4:00:58 PM
+293 info attempt registry request try #1 at 4:00:58 PM
+294 http fetch GET https://registry.npm.taobao.org/open/download/open-0.0.5.tgz
+295 http 200 https://registry.npm.taobao.org/colors
+296 verbose headers { date: 'Tue, 05 Apr 2016 08:00:58 GMT',
+296 verbose headers   'content-type': 'application/json; charset=utf-8',
+296 verbose headers   'content-length': '22581',
+296 verbose headers   connection: 'keep-alive',
+296 verbose headers   etag: '"5835-YS+gfh4tG0T8920XYRJc1Q"',
+296 verbose headers   'x-readtime': '88' }
+297 silly get cb [ 200,
+297 silly get   { date: 'Tue, 05 Apr 2016 08:00:58 GMT',
+297 silly get     'content-type': 'application/json; charset=utf-8',
+297 silly get     'content-length': '22581',
+297 silly get     connection: 'keep-alive',
+297 silly get     etag: '"5835-YS+gfh4tG0T8920XYRJc1Q"',
+297 silly get     'x-readtime': '88' } ]
+298 verbose get saving colors to /home/sven/.npm/registry.npm.taobao.org/colors/.cache.json
+299 silly resolveWithNewModule colors@1.1.2 checking installable status
+300 silly cache add args [ 'colors@^1.0.3', null ]
+301 verbose cache add spec colors@^1.0.3
+302 silly cache add parsed spec Result {
+302 silly cache add   raw: 'colors@^1.0.3',
+302 silly cache add   scope: null,
+302 silly cache add   name: 'colors',
+302 silly cache add   rawSpec: '^1.0.3',
+302 silly cache add   spec: '>=1.0.3 <2.0.0',
+302 silly cache add   type: 'range' }
+303 silly addNamed colors@>=1.0.3 <2.0.0
+304 verbose addNamed ">=1.0.3 <2.0.0" is a valid semver range for colors
+305 silly addNameRange { name: 'colors', range: '>=1.0.3 <2.0.0', hasData: false }
+306 silly mapToRegistry name colors
+307 silly mapToRegistry using default registry
+308 silly mapToRegistry registry https://registry.npm.taobao.org/
+309 silly mapToRegistry uri https://registry.npm.taobao.org/colors
+310 verbose addNameRange registry:https://registry.npm.taobao.org/colors not in flight; fetching
+311 verbose get https://registry.npm.taobao.org/colors not expired, no request
+312 silly addNameRange number 2 { name: 'colors', range: '>=1.0.3 <2.0.0', hasData: true }
+313 silly addNameRange versions [ 'colors',
+313 silly addNameRange   [ '1.1.2',
+313 silly addNameRange     '1.1.1',
+313 silly addNameRange     '1.1.0',
+313 silly addNameRange     '1.0.3',
+313 silly addNameRange     '1.0.2',
+313 silly addNameRange     '1.0.1',
+313 silly addNameRange     '1.0.0',
+313 silly addNameRange     '0.6.2',
+313 silly addNameRange     '0.6.1',
+313 silly addNameRange     '0.6.0-1',
+313 silly addNameRange     '0.6.0',
+313 silly addNameRange     '0.5.1',
+313 silly addNameRange     '0.5.0',
+313 silly addNameRange     '0.3.0' ] ]
+314 silly addNamed colors@1.1.2
+315 verbose addNamed "1.1.2" is a plain semver version for colors
+316 silly mapToRegistry name colors
+317 silly mapToRegistry using default registry
+318 silly mapToRegistry registry https://registry.npm.taobao.org/
+319 silly mapToRegistry uri https://registry.npm.taobao.org/colors
+320 verbose addRemoteTarball https://registry.npm.taobao.org/colors/download/colors-1.1.2.tgz not in flight; adding
+321 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/colors/download/colors-1.1.2.tgz',
+321 verbose addRemoteTarball   '168a4701756b6a7f51a12ce0c97bfa28c084ed63' ]
+322 info retry fetch attempt 1 at 4:00:58 PM
+323 info attempt registry request try #1 at 4:00:58 PM
+324 http fetch GET https://registry.npm.taobao.org/colors/download/colors-1.1.2.tgz
+325 http 200 https://registry.npm.taobao.org/debug
+326 verbose headers { date: 'Tue, 05 Apr 2016 08:00:58 GMT',
+326 verbose headers   'content-type': 'application/json; charset=utf-8',
+326 verbose headers   'content-length': '40701',
+326 verbose headers   connection: 'keep-alive',
+326 verbose headers   etag: '"9efd-0v9XfoTkq5sJh0Geh2iFMA"',
+326 verbose headers   'x-readtime': '121' }
+327 silly get cb [ 200,
+327 silly get   { date: 'Tue, 05 Apr 2016 08:00:58 GMT',
+327 silly get     'content-type': 'application/json; charset=utf-8',
+327 silly get     'content-length': '40701',
+327 silly get     connection: 'keep-alive',
+327 silly get     etag: '"9efd-0v9XfoTkq5sJh0Geh2iFMA"',
+327 silly get     'x-readtime': '121' } ]
+328 verbose get saving debug to /home/sven/.npm/registry.npm.taobao.org/debug/.cache.json
+329 http 200 https://registry.npm.taobao.org/cross-spawn
+330 verbose headers { date: 'Tue, 05 Apr 2016 08:00:58 GMT',
+330 verbose headers   'content-type': 'application/json; charset=utf-8',
+330 verbose headers   'content-length': '49341',
+330 verbose headers   connection: 'keep-alive',
+330 verbose headers   etag: '"c0bd-tvlUKGkLn8ItfA6YeQmEKA"',
+330 verbose headers   'x-readtime': '51' }
+331 silly get cb [ 200,
+331 silly get   { date: 'Tue, 05 Apr 2016 08:00:58 GMT',
+331 silly get     'content-type': 'application/json; charset=utf-8',
+331 silly get     'content-length': '49341',
+331 silly get     connection: 'keep-alive',
+331 silly get     etag: '"c0bd-tvlUKGkLn8ItfA6YeQmEKA"',
+331 silly get     'x-readtime': '51' } ]
+332 verbose get saving cross-spawn to /home/sven/.npm/registry.npm.taobao.org/cross-spawn/.cache.json
+333 silly resolveWithNewModule debug@2.2.0 checking installable status
+334 silly cache add args [ 'debug@^2.2.0', null ]
+335 verbose cache add spec debug@^2.2.0
+336 silly cache add parsed spec Result {
+336 silly cache add   raw: 'debug@^2.2.0',
+336 silly cache add   scope: null,
+336 silly cache add   name: 'debug',
+336 silly cache add   rawSpec: '^2.2.0',
+336 silly cache add   spec: '>=2.2.0 <3.0.0',
+336 silly cache add   type: 'range' }
+337 silly addNamed debug@>=2.2.0 <3.0.0
+338 verbose addNamed ">=2.2.0 <3.0.0" is a valid semver range for debug
+339 silly addNameRange { name: 'debug', range: '>=2.2.0 <3.0.0', hasData: false }
+340 silly mapToRegistry name debug
+341 silly mapToRegistry using default registry
+342 silly mapToRegistry registry https://registry.npm.taobao.org/
+343 silly mapToRegistry uri https://registry.npm.taobao.org/debug
+344 verbose addNameRange registry:https://registry.npm.taobao.org/debug not in flight; fetching
+345 silly resolveWithNewModule cross-spawn@0.2.9 checking installable status
+346 silly cache add args [ 'cross-spawn@~0.2.8', null ]
+347 verbose cache add spec cross-spawn@~0.2.8
+348 silly cache add parsed spec Result {
+348 silly cache add   raw: 'cross-spawn@~0.2.8',
+348 silly cache add   scope: null,
+348 silly cache add   name: 'cross-spawn',
+348 silly cache add   rawSpec: '~0.2.8',
+348 silly cache add   spec: '>=0.2.8 <0.3.0',
+348 silly cache add   type: 'range' }
+349 silly addNamed cross-spawn@>=0.2.8 <0.3.0
+350 verbose addNamed ">=0.2.8 <0.3.0" is a valid semver range for cross-spawn
+351 silly addNameRange { name: 'cross-spawn', range: '>=0.2.8 <0.3.0', hasData: false }
+352 silly mapToRegistry name cross-spawn
+353 silly mapToRegistry using default registry
+354 silly mapToRegistry registry https://registry.npm.taobao.org/
+355 silly mapToRegistry uri https://registry.npm.taobao.org/cross-spawn
+356 verbose addNameRange registry:https://registry.npm.taobao.org/cross-spawn not in flight; fetching
+357 verbose get https://registry.npm.taobao.org/debug not expired, no request
+358 silly addNameRange number 2 { name: 'debug', range: '>=2.2.0 <3.0.0', hasData: true }
+359 silly addNameRange versions [ 'debug',
+359 silly addNameRange   [ '2.2.0',
+359 silly addNameRange     '2.1.3',
+359 silly addNameRange     '2.1.2',
+359 silly addNameRange     '2.1.1',
+359 silly addNameRange     '2.1.0',
+359 silly addNameRange     '2.0.0',
+359 silly addNameRange     '1.0.4',
+359 silly addNameRange     '1.0.3',
+359 silly addNameRange     '1.0.2',
+359 silly addNameRange     '1.0.1',
+359 silly addNameRange     '1.0.0',
+359 silly addNameRange     '0.8.1',
+359 silly addNameRange     '0.8.0',
+359 silly addNameRange     '0.7.4',
+359 silly addNameRange     '0.7.3',
+359 silly addNameRange     '0.7.2',
+359 silly addNameRange     '0.7.1',
+359 silly addNameRange     '0.7.0',
+359 silly addNameRange     '0.6.0',
+359 silly addNameRange     '0.5.0',
+359 silly addNameRange     '0.4.1',
+359 silly addNameRange     '0.4.0',
+359 silly addNameRange     '0.3.0',
+359 silly addNameRange     '0.2.0',
+359 silly addNameRange     '0.1.0',
+359 silly addNameRange     '0.0.1' ] ]
+360 silly addNamed debug@2.2.0
+361 verbose addNamed "2.2.0" is a plain semver version for debug
+362 verbose get https://registry.npm.taobao.org/cross-spawn not expired, no request
+363 silly addNameRange number 2 { name: 'cross-spawn', range: '>=0.2.8 <0.3.0', hasData: true }
+364 silly addNameRange versions [ 'cross-spawn',
+364 silly addNameRange   [ '2.1.5',
+364 silly addNameRange     '2.1.4',
+364 silly addNameRange     '2.1.3',
+364 silly addNameRange     '2.1.2',
+364 silly addNameRange     '2.1.1',
+364 silly addNameRange     '2.1.0',
+364 silly addNameRange     '2.0.1',
+364 silly addNameRange     '2.0.0',
+364 silly addNameRange     '1.0.4',
+364 silly addNameRange     '1.0.3',
+364 silly addNameRange     '1.0.2',
+364 silly addNameRange     '1.0.1',
+364 silly addNameRange     '1.0.0',
+364 silly addNameRange     '0.4.1',
+364 silly addNameRange     '0.4.0',
+364 silly addNameRange     '0.3.0',
+364 silly addNameRange     '0.2.9',
+364 silly addNameRange     '0.2.8',
+364 silly addNameRange     '0.2.7',
+364 silly addNameRange     '0.2.6',
+364 silly addNameRange     '0.2.5',
+364 silly addNameRange     '0.2.4',
+364 silly addNameRange     '0.2.3',
+364 silly addNameRange     '0.2.2',
+364 silly addNameRange     '0.2.1',
+364 silly addNameRange     '0.2.0',
+364 silly addNameRange     '0.1.7',
+364 silly addNameRange     '0.1.6',
+364 silly addNameRange     '0.1.5',
+364 silly addNameRange     '0.1.4',
+364 silly addNameRange     '0.1.3',
+364 silly addNameRange     '0.1.2',
+364 silly addNameRange     '0.1.1',
+364 silly addNameRange     '0.1.0' ] ]
+365 silly addNamed cross-spawn@0.2.9
+366 verbose addNamed "0.2.9" is a plain semver version for cross-spawn
+367 silly mapToRegistry name cross-spawn
+368 silly mapToRegistry using default registry
+369 silly mapToRegistry registry https://registry.npm.taobao.org/
+370 silly mapToRegistry uri https://registry.npm.taobao.org/cross-spawn
+371 verbose addRemoteTarball https://registry.npm.taobao.org/cross-spawn/download/cross-spawn-0.2.9.tgz not in flight; adding
+372 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/cross-spawn/download/cross-spawn-0.2.9.tgz',
+372 verbose addRemoteTarball   'bd67f96c07efb6303b7fe94c1e979f88478e0a39' ]
+373 silly cache afterAdd debug@2.2.0
+374 verbose afterAdd /home/sven/.npm/debug/2.2.0/package/package.json not in flight; writing
+375 info retry fetch attempt 1 at 4:00:59 PM
+376 info attempt registry request try #1 at 4:00:59 PM
+377 http fetch GET https://registry.npm.taobao.org/cross-spawn/download/cross-spawn-0.2.9.tgz
+378 verbose afterAdd /home/sven/.npm/debug/2.2.0/package/package.json written
+379 http 200 https://registry.npm.taobao.org/commander
+380 verbose headers { date: 'Tue, 05 Apr 2016 08:00:58 GMT',
+380 verbose headers   'content-type': 'application/json; charset=utf-8',
+380 verbose headers   'content-length': '69951',
+380 verbose headers   connection: 'keep-alive',
+380 verbose headers   etag: '"1113f-oEbUlkFiFOmTNMiLSseO5Q"',
+380 verbose headers   'x-readtime': '186' }
+381 silly get cb [ 200,
+381 silly get   { date: 'Tue, 05 Apr 2016 08:00:58 GMT',
+381 silly get     'content-type': 'application/json; charset=utf-8',
+381 silly get     'content-length': '69951',
+381 silly get     connection: 'keep-alive',
+381 silly get     etag: '"1113f-oEbUlkFiFOmTNMiLSseO5Q"',
+381 silly get     'x-readtime': '186' } ]
+382 verbose get saving commander to /home/sven/.npm/registry.npm.taobao.org/commander/.cache.json
+383 http fetch 200 https://registry.npm.taobao.org/auto-correct/download/auto-correct-1.0.0.tgz
+384 silly resolveWithNewModule commander@2.7.1 checking installable status
+385 silly cache add args [ 'commander@~2.7.1', null ]
+386 verbose cache add spec commander@~2.7.1
+387 silly cache add parsed spec Result {
+387 silly cache add   raw: 'commander@~2.7.1',
+387 silly cache add   scope: null,
+387 silly cache add   name: 'commander',
+387 silly cache add   rawSpec: '~2.7.1',
+387 silly cache add   spec: '>=2.7.1 <2.8.0',
+387 silly cache add   type: 'range' }
+388 silly addNamed commander@>=2.7.1 <2.8.0
+389 verbose addNamed ">=2.7.1 <2.8.0" is a valid semver range for commander
+390 silly addNameRange { name: 'commander', range: '>=2.7.1 <2.8.0', hasData: false }
+391 silly mapToRegistry name commander
+392 silly mapToRegistry using default registry
+393 silly mapToRegistry registry https://registry.npm.taobao.org/
+394 silly mapToRegistry uri https://registry.npm.taobao.org/commander
+395 verbose addNameRange registry:https://registry.npm.taobao.org/commander not in flight; fetching
+396 silly fetchAndShaCheck shasum 9865d9a2c1a7118421f5f0654f685fbeb41b034b
+397 verbose addTmpTarball /tmp/npm-5942-50d44ea4/registry.npm.taobao.org/auto-correct/download/auto-correct-1.0.0.tgz not in flight; adding
+398 verbose addTmpTarball already have metadata; skipping unpack for auto-correct@1.0.0
+399 verbose get https://registry.npm.taobao.org/commander not expired, no request
+400 silly addNameRange number 2 { name: 'commander', range: '>=2.7.1 <2.8.0', hasData: true }
+401 silly addNameRange versions [ 'commander',
+401 silly addNameRange   [ '2.9.0',
+401 silly addNameRange     '2.8.1',
+401 silly addNameRange     '2.8.0',
+401 silly addNameRange     '2.7.1',
+401 silly addNameRange     '2.7.0',
+401 silly addNameRange     '2.6.0',
+401 silly addNameRange     '2.5.1',
+401 silly addNameRange     '2.5.0',
+401 silly addNameRange     '2.4.0',
+401 silly addNameRange     '2.3.0',
+401 silly addNameRange     '2.2.0',
+401 silly addNameRange     '2.1.0',
+401 silly addNameRange     '2.0.0',
+401 silly addNameRange     '1.3.2',
+401 silly addNameRange     '1.3.1',
+401 silly addNameRange     '1.3.0',
+401 silly addNameRange     '1.2.0',
+401 silly addNameRange     '1.1.1',
+401 silly addNameRange     '1.1.0',
+401 silly addNameRange     '1.0.5',
+401 silly addNameRange     '1.0.4',
+401 silly addNameRange     '1.0.3',
+401 silly addNameRange     '1.0.2',
+401 silly addNameRange     '1.0.1',
+401 silly addNameRange     '1.0.0',
+401 silly addNameRange     '0.5.2',
+401 silly addNameRange     '0.6.1',
+401 silly addNameRange     '0.6.0',
+401 silly addNameRange     '0.5.1',
+401 silly addNameRange     '0.5.0',
+401 silly addNameRange     '0.4.3',
+401 silly addNameRange     '0.4.2',
+401 silly addNameRange     '0.4.1',
+401 silly addNameRange     '0.4.0',
+401 silly addNameRange     '0.3.3',
+401 silly addNameRange     '0.3.2',
+401 silly addNameRange     '0.3.1',
+401 silly addNameRange     '0.3.0',
+401 silly addNameRange     '0.2.1',
+401 silly addNameRange     '0.2.0',
+401 silly addNameRange     '0.1.0',
+401 silly addNameRange     '0.0.5',
+401 silly addNameRange     '0.0.4',
+401 silly addNameRange     '0.0.3',
+401 silly addNameRange     '0.0.1' ] ]
+402 silly addNamed commander@2.7.1
+403 verbose addNamed "2.7.1" is a plain semver version for commander
+404 http 200 https://registry.npm.taobao.org/npminstall
+405 verbose headers { date: 'Tue, 05 Apr 2016 08:00:58 GMT',
+405 verbose headers   'content-type': 'application/json; charset=utf-8',
+405 verbose headers   'content-length': '109057',
+405 verbose headers   connection: 'keep-alive',
+405 verbose headers   etag: '"1aa01-OrzgI2O/A1zN8zJjGCGDaA"',
+405 verbose headers   'x-readtime': '71' }
+406 silly get cb [ 200,
+406 silly get   { date: 'Tue, 05 Apr 2016 08:00:58 GMT',
+406 silly get     'content-type': 'application/json; charset=utf-8',
+406 silly get     'content-length': '109057',
+406 silly get     connection: 'keep-alive',
+406 silly get     etag: '"1aa01-OrzgI2O/A1zN8zJjGCGDaA"',
+406 silly get     'x-readtime': '71' } ]
+407 verbose get saving npminstall to /home/sven/.npm/registry.npm.taobao.org/npminstall/.cache.json
+408 silly mapToRegistry name commander
+409 silly mapToRegistry using default registry
+410 silly mapToRegistry registry https://registry.npm.taobao.org/
+411 silly mapToRegistry uri https://registry.npm.taobao.org/commander
+412 verbose addRemoteTarball https://registry.npm.taobao.org/commander/download/commander-2.7.1.tgz not in flight; adding
+413 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/commander/download/commander-2.7.1.tgz',
+413 verbose addRemoteTarball   '5d419a2bbed2c32ee3e4dca9bb45ab83ecc3065a' ]
+414 info retry fetch attempt 1 at 4:00:59 PM
+415 info attempt registry request try #1 at 4:00:59 PM
+416 http fetch GET https://registry.npm.taobao.org/commander/download/commander-2.7.1.tgz
+417 silly resolveWithNewModule npminstall@1.6.0 checking installable status
+418 silly cache add args [ 'npminstall@^1.3.1', null ]
+419 verbose cache add spec npminstall@^1.3.1
+420 silly cache add parsed spec Result {
+420 silly cache add   raw: 'npminstall@^1.3.1',
+420 silly cache add   scope: null,
+420 silly cache add   name: 'npminstall',
+420 silly cache add   rawSpec: '^1.3.1',
+420 silly cache add   spec: '>=1.3.1 <2.0.0',
+420 silly cache add   type: 'range' }
+421 silly addNamed npminstall@>=1.3.1 <2.0.0
+422 verbose addNamed ">=1.3.1 <2.0.0" is a valid semver range for npminstall
+423 silly addNameRange { name: 'npminstall', range: '>=1.3.1 <2.0.0', hasData: false }
+424 silly mapToRegistry name npminstall
+425 silly mapToRegistry using default registry
+426 silly mapToRegistry registry https://registry.npm.taobao.org/
+427 silly mapToRegistry uri https://registry.npm.taobao.org/npminstall
+428 verbose addNameRange registry:https://registry.npm.taobao.org/npminstall not in flight; fetching
+429 verbose get https://registry.npm.taobao.org/npminstall not expired, no request
+430 silly addNameRange number 2 { name: 'npminstall', range: '>=1.3.1 <2.0.0', hasData: true }
+431 silly addNameRange versions [ 'npminstall',
+431 silly addNameRange   [ '1.6.0',
+431 silly addNameRange     '1.5.3',
+431 silly addNameRange     '1.5.2',
+431 silly addNameRange     '1.5.1',
+431 silly addNameRange     '1.5.0',
+431 silly addNameRange     '1.4.2',
+431 silly addNameRange     '1.4.1',
+431 silly addNameRange     '1.4.0',
+431 silly addNameRange     '1.3.2',
+431 silly addNameRange     '1.3.1',
+431 silly addNameRange     '1.3.0',
+431 silly addNameRange     '1.2.5',
+431 silly addNameRange     '1.2.4',
+431 silly addNameRange     '1.2.3',
+431 silly addNameRange     '1.2.2',
+431 silly addNameRange     '1.2.1',
+431 silly addNameRange     '1.2.0',
+431 silly addNameRange     '1.1.1',
+431 silly addNameRange     '1.1.0',
+431 silly addNameRange     '1.0.8',
+431 silly addNameRange     '1.0.7',
+431 silly addNameRange     '1.0.6',
+431 silly addNameRange     '1.0.5',
+431 silly addNameRange     '1.0.4',
+431 silly addNameRange     '1.0.3',
+431 silly addNameRange     '1.0.2',
+431 silly addNameRange     '1.0.1',
+431 silly addNameRange     '1.0.0',
+431 silly addNameRange     '0.7.0',
+431 silly addNameRange     '0.6.0',
+431 silly addNameRange     '0.5.1',
+431 silly addNameRange     '0.5.0',
+431 silly addNameRange     '0.4.0',
+431 silly addNameRange     '0.3.0',
+431 silly addNameRange     '0.2.0',
+431 silly addNameRange     '0.1.0',
+431 silly addNameRange     '0.0.4',
+431 silly addNameRange     '0.0.3',
+431 silly addNameRange     '0.0.2',
+431 silly addNameRange     '0.0.1' ] ]
+432 silly addNamed npminstall@1.6.0
+433 verbose addNamed "1.6.0" is a plain semver version for npminstall
+434 silly cache afterAdd auto-correct@1.0.0
+435 verbose afterAdd /home/sven/.npm/auto-correct/1.0.0/package/package.json not in flight; writing
+436 silly mapToRegistry name npminstall
+437 silly mapToRegistry using default registry
+438 silly mapToRegistry registry https://registry.npm.taobao.org/
+439 silly mapToRegistry uri https://registry.npm.taobao.org/npminstall
+440 verbose addRemoteTarball https://registry.npm.taobao.org/npminstall/download/npminstall-1.6.0.tgz not in flight; adding
+441 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/npminstall/download/npminstall-1.6.0.tgz',
+441 verbose addRemoteTarball   '1dff1ec9ab4a8b0b7d3ca69340d982ce1d2e5534' ]
+442 info retry fetch attempt 1 at 4:00:59 PM
+443 info attempt registry request try #1 at 4:00:59 PM
+444 http fetch GET https://registry.npm.taobao.org/npminstall/download/npminstall-1.6.0.tgz
+445 verbose afterAdd /home/sven/.npm/auto-correct/1.0.0/package/package.json written
+446 http fetch 200 https://registry.npm.taobao.org/bagpipe/download/bagpipe-0.3.5.tgz
+447 silly fetchAndShaCheck shasum e341d164fcb24cdf04ea7e05b765ec10c8aea6a1
+448 verbose addTmpTarball /tmp/npm-5942-50d44ea4/registry.npm.taobao.org/bagpipe/download/bagpipe-0.3.5.tgz not in flight; adding
+449 verbose addTmpTarball already have metadata; skipping unpack for bagpipe@0.3.5
+450 silly cache afterAdd bagpipe@0.3.5
+451 verbose afterAdd /home/sven/.npm/bagpipe/0.3.5/package/package.json not in flight; writing
+452 verbose afterAdd /home/sven/.npm/bagpipe/0.3.5/package/package.json written
+453 http fetch 200 https://registry.npm.taobao.org/giturl/download/giturl-1.0.0.tgz
+454 http fetch 200 https://registry.npm.taobao.org/colors/download/colors-1.1.2.tgz
+455 silly fetchAndShaCheck shasum 9732a81e9e25c457a22f0e2ca1c9c51dbbb5325f
+456 silly fetchAndShaCheck shasum 168a4701756b6a7f51a12ce0c97bfa28c084ed63
+457 verbose addTmpTarball /tmp/npm-5942-50d44ea4/registry.npm.taobao.org/giturl/download/giturl-1.0.0.tgz not in flight; adding
+458 verbose addTmpTarball already have metadata; skipping unpack for giturl@1.0.0
+459 verbose addTmpTarball /tmp/npm-5942-50d44ea4/registry.npm.taobao.org/colors/download/colors-1.1.2.tgz not in flight; adding
+460 verbose addTmpTarball already have metadata; skipping unpack for colors@1.1.2
+461 silly cache afterAdd giturl@1.0.0
+462 verbose afterAdd /home/sven/.npm/giturl/1.0.0/package/package.json not in flight; writing
+463 silly cache afterAdd colors@1.1.2
+464 verbose afterAdd /home/sven/.npm/colors/1.1.2/package/package.json not in flight; writing
+465 verbose afterAdd /home/sven/.npm/giturl/1.0.0/package/package.json written
+466 verbose afterAdd /home/sven/.npm/colors/1.1.2/package/package.json written
+467 http fetch 200 https://registry.npm.taobao.org/open/download/open-0.0.5.tgz
+468 silly fetchAndShaCheck shasum 42c3e18ec95466b6bf0dc42f3a2945c3f0cad8fc
+469 verbose addTmpTarball /tmp/npm-5942-50d44ea4/registry.npm.taobao.org/open/download/open-0.0.5.tgz not in flight; adding
+470 verbose addTmpTarball already have metadata; skipping unpack for open@0.0.5
+471 silly cache afterAdd open@0.0.5
+472 verbose afterAdd /home/sven/.npm/open/0.0.5/package/package.json not in flight; writing
+473 verbose afterAdd /home/sven/.npm/open/0.0.5/package/package.json written
+474 http 200 https://registry.npm.taobao.org/urllib
+475 verbose headers { date: 'Tue, 05 Apr 2016 08:00:58 GMT',
+475 verbose headers   'content-type': 'application/json; charset=utf-8',
+475 verbose headers   'content-length': '205501',
+475 verbose headers   connection: 'keep-alive',
+475 verbose headers   etag: '"322bd-pXeGZwGBBAzPiS/nb0obRQ"',
+475 verbose headers   'x-readtime': '112' }
+476 silly get cb [ 200,
+476 silly get   { date: 'Tue, 05 Apr 2016 08:00:58 GMT',
+476 silly get     'content-type': 'application/json; charset=utf-8',
+476 silly get     'content-length': '205501',
+476 silly get     connection: 'keep-alive',
+476 silly get     etag: '"322bd-pXeGZwGBBAzPiS/nb0obRQ"',
+476 silly get     'x-readtime': '112' } ]
+477 verbose get saving urllib to /home/sven/.npm/registry.npm.taobao.org/urllib/.cache.json
+478 silly resolveWithNewModule urllib@2.8.0 checking installable status
+479 silly cache add args [ 'urllib@^2.8.0', null ]
+480 verbose cache add spec urllib@^2.8.0
+481 silly cache add parsed spec Result {
+481 silly cache add   raw: 'urllib@^2.8.0',
+481 silly cache add   scope: null,
+481 silly cache add   name: 'urllib',
+481 silly cache add   rawSpec: '^2.8.0',
+481 silly cache add   spec: '>=2.8.0 <3.0.0',
+481 silly cache add   type: 'range' }
+482 silly addNamed urllib@>=2.8.0 <3.0.0
+483 verbose addNamed ">=2.8.0 <3.0.0" is a valid semver range for urllib
+484 silly addNameRange { name: 'urllib', range: '>=2.8.0 <3.0.0', hasData: false }
+485 silly mapToRegistry name urllib
+486 silly mapToRegistry using default registry
+487 silly mapToRegistry registry https://registry.npm.taobao.org/
+488 silly mapToRegistry uri https://registry.npm.taobao.org/urllib
+489 verbose addNameRange registry:https://registry.npm.taobao.org/urllib not in flight; fetching
+490 verbose get https://registry.npm.taobao.org/urllib not expired, no request
+491 silly addNameRange number 2 { name: 'urllib', range: '>=2.8.0 <3.0.0', hasData: true }
+492 silly addNameRange versions [ 'urllib',
+492 silly addNameRange   [ '2.8.0',
+492 silly addNameRange     '2.7.3',
+492 silly addNameRange     '2.7.2',
+492 silly addNameRange     '2.7.1',
+492 silly addNameRange     '2.7.0',
+492 silly addNameRange     '2.6.0',
+492 silly addNameRange     '2.5.0',
+492 silly addNameRange     '2.4.0',
+492 silly addNameRange     '2.3.11',
+492 silly addNameRange     '2.3.10',
+492 silly addNameRange     '2.3.9',
+492 silly addNameRange     '2.3.8',
+492 silly addNameRange     '2.3.7',
+492 silly addNameRange     '2.3.6',
+492 silly addNameRange     '2.3.5',
+492 silly addNameRange     '2.3.4',
+492 silly addNameRange     '2.3.3',
+492 silly addNameRange     '2.3.2',
+492 silly addNameRange     '2.3.1',
+492 silly addNameRange     '2.0.3',
+492 silly addNameRange     '2.3.0',
+492 silly addNameRange     '2.2.2',
+492 silly addNameRange     '2.2.1',
+492 silly addNameRange     '2.2.0',
+492 silly addNameRange     '2.1.0',
+492 silly addNameRange     '2.0.2',
+492 silly addNameRange     '2.0.1',
+492 silly addNameRange     '2.0.0',
+492 silly addNameRange     '0.5.18',
+492 silly addNameRange     '1.5.2',
+492 silly addNameRange     '1.5.1',
+492 silly addNameRange     '1.5.0',
+492 silly addNameRange     '1.4.1',
+492 silly addNameRange     '1.4.0',
+492 silly addNameRange     '1.3.1',
+492 silly addNameRange     '1.3.0',
+492 silly addNameRange     '1.2.1',
+492 silly addNameRange     '1.2.0',
+492 silly addNameRange     '1.1.0',
+492 silly addNameRange     '1.0.0',
+492 silly addNameRange     '0.5.17',
+492 silly addNameRange     '0.5.16',
+492 silly addNameRange     '0.5.15',
+492 silly addNameRange     '0.5.14',
+492 silly addNameRange     '0.5.13',
+492 silly addNameRange     '0.5.12',
+492 silly addNameRange     '0.5.11',
+492 silly addNameRange     '0.5.10',
+492 silly addNameRange     '0.5.9',
+492 silly addNameRange     '0.5.8',
+492 silly addNameRange     '0.5.6',
+492 silly addNameRange     '0.5.5',
+492 silly addNameRange     '0.5.4',
+492 silly addNameRange     '0.5.3',
+492 silly addNameRange     '0.5.2',
+492 silly addNameRange     '0.5.1',
+492 silly addNameRange     '0.5.0',
+492 silly addNameRange     '0.4.4',
+492 silly addNameRange     '0.4.3',
+492 silly addNameRange     '0.4.2',
+492 silly addNameRange     '0.4.1',
+492 silly addNameRange     '0.4.0',
+492 silly addNameRange     '0.3.8',
+492 silly addNameRange     '0.3.7',
+492 silly addNameRange     '0.3.6',
+492 silly addNameRange     '0.3.5',
+492 silly addNameRange     '0.3.4',
+492 silly addNameRange     '0.3.3',
+492 silly addNameRange     '0.3.2',
+492 silly addNameRange     '0.3.1',
+492 silly addNameRange     '0.3.0',
+492 silly addNameRange     '0.2.9',
+492 silly addNameRange     '0.2.8',
+492 silly addNameRange     '0.2.7',
+492 silly addNameRange     '0.2.6',
+492 silly addNameRange     '0.2.5',
+492 silly addNameRange     '0.2.4',
+492 silly addNameRange     '0.2.3',
+492 silly addNameRange     '0.2.2',
+492 silly addNameRange     '0.2.1',
+492 silly addNameRange     '0.2.0',
+492 silly addNameRange     '0.1.0',
+492 silly addNameRange     '0.0.1' ] ]
+493 silly addNamed urllib@2.8.0
+494 verbose addNamed "2.8.0" is a plain semver version for urllib
+495 silly mapToRegistry name urllib
+496 silly mapToRegistry using default registry
+497 silly mapToRegistry registry https://registry.npm.taobao.org/
+498 silly mapToRegistry uri https://registry.npm.taobao.org/urllib
+499 verbose addRemoteTarball https://registry.npm.taobao.org/urllib/download/urllib-2.8.0.tgz not in flight; adding
+500 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/urllib/download/urllib-2.8.0.tgz',
+500 verbose addRemoteTarball   '22b20a2e764e3166f473772f4442dd1908d534b6' ]
+501 info retry fetch attempt 1 at 4:00:59 PM
+502 info attempt registry request try #1 at 4:00:59 PM
+503 http fetch GET https://registry.npm.taobao.org/urllib/download/urllib-2.8.0.tgz
+504 http fetch 200 https://registry.npm.taobao.org/cross-spawn/download/cross-spawn-0.2.9.tgz
+505 silly fetchAndShaCheck shasum bd67f96c07efb6303b7fe94c1e979f88478e0a39
+506 verbose addTmpTarball /tmp/npm-5942-50d44ea4/registry.npm.taobao.org/cross-spawn/download/cross-spawn-0.2.9.tgz not in flight; adding
+507 verbose addTmpTarball already have metadata; skipping unpack for cross-spawn@0.2.9
+508 silly cache afterAdd cross-spawn@0.2.9
+509 verbose afterAdd /home/sven/.npm/cross-spawn/0.2.9/package/package.json not in flight; writing
+510 verbose afterAdd /home/sven/.npm/cross-spawn/0.2.9/package/package.json written
+511 http fetch 200 https://registry.npm.taobao.org/commander/download/commander-2.7.1.tgz
+512 silly fetchAndShaCheck shasum 5d419a2bbed2c32ee3e4dca9bb45ab83ecc3065a
+513 verbose addTmpTarball /tmp/npm-5942-50d44ea4/registry.npm.taobao.org/commander/download/commander-2.7.1.tgz not in flight; adding
+514 verbose addTmpTarball already have metadata; skipping unpack for commander@2.7.1
+515 silly cache afterAdd commander@2.7.1
+516 verbose afterAdd /home/sven/.npm/commander/2.7.1/package/package.json not in flight; writing
+517 verbose afterAdd /home/sven/.npm/commander/2.7.1/package/package.json written
+518 http fetch 200 https://registry.npm.taobao.org/npminstall/download/npminstall-1.6.0.tgz
+519 http 200 https://registry.npm.taobao.org/npm-request
+520 verbose headers { date: 'Tue, 05 Apr 2016 08:00:59 GMT',
+520 verbose headers   'content-type': 'application/json; charset=utf-8',
+520 verbose headers   'content-length': '5084',
+520 verbose headers   connection: 'keep-alive',
+520 verbose headers   etag: '"13dc-u2ygq8WZe+JuuaY0ab9/kw"',
+520 verbose headers   'x-readtime': '464' }
+521 silly get cb [ 200,
+521 silly get   { date: 'Tue, 05 Apr 2016 08:00:59 GMT',
+521 silly get     'content-type': 'application/json; charset=utf-8',
+521 silly get     'content-length': '5084',
+521 silly get     connection: 'keep-alive',
+521 silly get     etag: '"13dc-u2ygq8WZe+JuuaY0ab9/kw"',
+521 silly get     'x-readtime': '464' } ]
+522 verbose get saving npm-request to /home/sven/.npm/registry.npm.taobao.org/npm-request/.cache.json
+523 silly fetchAndShaCheck shasum 1dff1ec9ab4a8b0b7d3ca69340d982ce1d2e5534
+524 verbose addTmpTarball /tmp/npm-5942-50d44ea4/registry.npm.taobao.org/npminstall/download/npminstall-1.6.0.tgz not in flight; adding
+525 verbose addTmpTarball already have metadata; skipping unpack for npminstall@1.6.0
+526 silly resolveWithNewModule npm-request@0.0.4 checking installable status
+527 silly cache add args [ 'npm-request@~0.0.4', null ]
+528 verbose cache add spec npm-request@~0.0.4
+529 silly cache add parsed spec Result {
+529 silly cache add   raw: 'npm-request@~0.0.4',
+529 silly cache add   scope: null,
+529 silly cache add   name: 'npm-request',
+529 silly cache add   rawSpec: '~0.0.4',
+529 silly cache add   spec: '>=0.0.4 <0.1.0',
+529 silly cache add   type: 'range' }
+530 silly addNamed npm-request@>=0.0.4 <0.1.0
+531 verbose addNamed ">=0.0.4 <0.1.0" is a valid semver range for npm-request
+532 silly addNameRange { name: 'npm-request', range: '>=0.0.4 <0.1.0', hasData: false }
+533 silly mapToRegistry name npm-request
+534 silly mapToRegistry using default registry
+535 silly mapToRegistry registry https://registry.npm.taobao.org/
+536 silly mapToRegistry uri https://registry.npm.taobao.org/npm-request
+537 verbose addNameRange registry:https://registry.npm.taobao.org/npm-request not in flight; fetching
+538 verbose get https://registry.npm.taobao.org/npm-request not expired, no request
+539 silly addNameRange number 2 { name: 'npm-request', range: '>=0.0.4 <0.1.0', hasData: true }
+540 silly addNameRange versions [ 'npm-request', [ '1.0.0', '0.0.4', '0.0.3', '0.0.1' ] ]
+541 silly addNamed npm-request@0.0.4
+542 verbose addNamed "0.0.4" is a plain semver version for npm-request
+543 silly mapToRegistry name npm-request
+544 silly mapToRegistry using default registry
+545 silly mapToRegistry registry https://registry.npm.taobao.org/
+546 silly mapToRegistry uri https://registry.npm.taobao.org/npm-request
+547 verbose addRemoteTarball https://registry.npm.taobao.org/npm-request/download/npm-request-0.0.4.tgz not in flight; adding
+548 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/npm-request/download/npm-request-0.0.4.tgz',
+548 verbose addRemoteTarball   'bd8734e1bac1ec943a86ed8ee0bba8a969c28965' ]
+549 info retry fetch attempt 1 at 4:00:59 PM
+550 info attempt registry request try #1 at 4:00:59 PM
+551 http fetch GET https://registry.npm.taobao.org/npm-request/download/npm-request-0.0.4.tgz
+552 silly cache afterAdd npminstall@1.6.0
+553 verbose afterAdd /home/sven/.npm/npminstall/1.6.0/package/package.json not in flight; writing
+554 verbose afterAdd /home/sven/.npm/npminstall/1.6.0/package/package.json written
+555 http fetch 200 https://registry.npm.taobao.org/urllib/download/urllib-2.8.0.tgz
+556 silly fetchAndShaCheck shasum 22b20a2e764e3166f473772f4442dd1908d534b6
+557 verbose addTmpTarball /tmp/npm-5942-50d44ea4/registry.npm.taobao.org/urllib/download/urllib-2.8.0.tgz not in flight; adding
+558 verbose addTmpTarball already have metadata; skipping unpack for urllib@2.8.0
+559 silly cache afterAdd urllib@2.8.0
+560 verbose afterAdd /home/sven/.npm/urllib/2.8.0/package/package.json not in flight; writing
+561 verbose afterAdd /home/sven/.npm/urllib/2.8.0/package/package.json written
+562 http fetch 200 https://registry.npm.taobao.org/npm-request/download/npm-request-0.0.4.tgz
+563 silly fetchAndShaCheck shasum bd8734e1bac1ec943a86ed8ee0bba8a969c28965
+564 verbose addTmpTarball /tmp/npm-5942-50d44ea4/registry.npm.taobao.org/npm-request/download/npm-request-0.0.4.tgz not in flight; adding
+565 verbose addTmpTarball already have metadata; skipping unpack for npm-request@0.0.4
+566 silly cache afterAdd npm-request@0.0.4
+567 verbose afterAdd /home/sven/.npm/npm-request/0.0.4/package/package.json not in flight; writing
+568 verbose afterAdd /home/sven/.npm/npm-request/0.0.4/package/package.json written
+569 http 200 https://registry.npm.taobao.org/npm
+570 verbose headers { date: 'Tue, 05 Apr 2016 08:00:59 GMT',
+570 verbose headers   'content-type': 'application/json; charset=utf-8',
+570 verbose headers   'content-length': '4781540',
+570 verbose headers   connection: 'keep-alive',
+570 verbose headers   etag: '"48f5e4-30iRnXVkS0xzD0FIHCstTg"',
+570 verbose headers   'x-readtime': '570' }
+571 silly get cb [ 200,
+571 silly get   { date: 'Tue, 05 Apr 2016 08:00:59 GMT',
+571 silly get     'content-type': 'application/json; charset=utf-8',
+571 silly get     'content-length': '4781540',
+571 silly get     connection: 'keep-alive',
+571 silly get     etag: '"48f5e4-30iRnXVkS0xzD0FIHCstTg"',
+571 silly get     'x-readtime': '570' } ]
+572 verbose get saving npm to /home/sven/.npm/registry.npm.taobao.org/npm/.cache.json
+573 silly resolveWithNewModule npm@3.8.5 checking installable status
+574 silly cache add args [ 'npm@^3.8.0', null ]
+575 verbose cache add spec npm@^3.8.0
+576 silly cache add parsed spec Result {
+576 silly cache add   raw: 'npm@^3.8.0',
+576 silly cache add   scope: null,
+576 silly cache add   name: 'npm',
+576 silly cache add   rawSpec: '^3.8.0',
+576 silly cache add   spec: '>=3.8.0 <4.0.0',
+576 silly cache add   type: 'range' }
+577 silly addNamed npm@>=3.8.0 <4.0.0
+578 verbose addNamed ">=3.8.0 <4.0.0" is a valid semver range for npm
+579 silly addNameRange { name: 'npm', range: '>=3.8.0 <4.0.0', hasData: false }
+580 silly mapToRegistry name npm
+581 silly mapToRegistry using default registry
+582 silly mapToRegistry registry https://registry.npm.taobao.org/
+583 silly mapToRegistry uri https://registry.npm.taobao.org/npm
+584 verbose addNameRange registry:https://registry.npm.taobao.org/npm not in flight; fetching
+585 verbose get https://registry.npm.taobao.org/npm not expired, no request
+586 silly addNameRange number 2 { name: 'npm', range: '>=3.8.0 <4.0.0', hasData: true }
+587 silly addNameRange versions [ 'npm',
+587 silly addNameRange   [ '2.15.3',
+587 silly addNameRange     '3.8.6',
+587 silly addNameRange     '3.8.5',
+587 silly addNameRange     '3.8.4',
+587 silly addNameRange     '2.15.2',
+587 silly addNameRange     '3.8.3',
+587 silly addNameRange     '2.15.1',
+587 silly addNameRange     '2.15.0',
+587 silly addNameRange     '3.8.2',
+587 silly addNameRange     '3.8.1',
+587 silly addNameRange     '2.14.22',
+587 silly addNameRange     '3.8.0',
+587 silly addNameRange     '2.14.21',
+587 silly addNameRange     '3.7.5',
+587 silly addNameRange     '3.7.4',
+587 silly addNameRange     '2.14.20',
+587 silly addNameRange     '2.14.19',
+587 silly addNameRange     '3.7.3',
+587 silly addNameRange     '2.14.18',
+587 silly addNameRange     '3.7.2',
+587 silly addNameRange     '3.7.1',
+587 silly addNameRange     '3.7.0',
+587 silly addNameRange     '2.14.17',
+587 silly addNameRange     '2.14.16',
+587 silly addNameRange     '3.6.0',
+587 silly addNameRange     '3.5.4',
+587 silly addNameRange     '3.5.3',
+587 silly addNameRange     '2.14.15',
+587 silly addNameRange     '3.5.2',
+587 silly addNameRange     '2.14.14',
+587 silly addNameRange     '2.14.13',
+587 silly addNameRange     '3.5.1',
+587 silly addNameRange     '3.5.0',
+587 silly addNameRange     '2.14.12',
+587 silly addNameRange     '2.14.11',
+587 silly addNameRange     '3.4.1',
+587 silly addNameRange     '3.4.0',
+587 silly addNameRange     '2.14.10',
+587 silly addNameRange     '3.3.12',
+587 silly addNameRange     '1.4.29',
+587 silly addNameRange     '3.3.11',
+587 silly addNameRange     '2.14.9',
+587 silly addNameRange     '3.3.10',
+587 silly addNameRange     '3.3.9',
+587 silly addNameRange     '3.3.8',
+587 silly addNameRange     '3.3.7',
+587 silly addNameRange     '2.14.8',
+587 silly addNameRange     '2.14.7',
+587 silly addNameRange     '3.3.6',
+587 silly addNameRange     '3.3.5',
+587 silly addNameRange     '2.14.6',
+587 silly addNameRange     '3.3.4',
+587 silly addNameRange     '2.14.5',
+587 silly addNameRange     '3.3.3',
+587 silly addNameRange     '2.14.4',
+587 silly addNameRange     '3.3.2',
+587 silly addNameRange     '2.14.3',
+587 silly addNameRange     '3.3.1',
+587 silly addNameRange     '2.14.2',
+587 silly addNameRange     '2.14.1',
+587 silly addNameRange     '3.3.0',
+587 silly addNameRange     '2.14.0',
+587 silly addNameRange     '3.2.2',
+587 silly addNameRange     '2.13.5',
+587 silly addNameRange     '3.2.1',
+587 silly addNameRange     '2.13.4',
+587 silly addNameRange     '3.2.0',
+587 silly addNameRange     '2.13.3',
+587 silly addNameRange     '3.1.3',
+587 silly addNameRange     '2.13.2',
+587 silly addNameRange     '3.1.2',
+587 silly addNameRange     '3.1.1',
+587 silly addNameRange     '2.13.1',
+587 silly addNameRange     '3.1.0',
+587 silly addNameRange     '2.13.0',
+587 silly addNameRange     '2.12.1',
+587 silly addNameRange     '3.0.0',
+587 silly addNameRange     '2.12.0',
+587 silly addNameRange     '2.11.3',
+587 silly addNameRange     '2.11.2',
+587 silly addNameRange     '2.11.1',
+587 silly addNameRange     '2.11.0',
+587 silly addNameRange     '2.10.1',
+587 silly addNameRange     '2.10.0',
+587 silly addNameRange     '2.9.1',
+587 silly addNameRange     '2.9.0',
+587 silly addNameRange     '2.8.4',
+587 silly addNameRange     '2.8.3',
+587 silly addNameRange     '2.8.2',
+587 silly addNameRange     '2.8.1',
+587 silly addNameRange     '2.8.0',
+587 silly addNameRange     '2.7.6',
+587 silly addNameRange     '2.7.5',
+587 silly addNameRange     '2.7.4',
+587 silly addNameRange     '2.7.3',
+587 silly addNameRange     '2.7.2',
+587 silly addNameRange     '2.7.1',
+587 silly addNameRange     '2.7.0',
+587 silly addNameRange     '2.6.1',
+587 silly addNameRange     '2.6.0',
+587 silly addNameRange     '2.5.1',
+587 silly addNameRange     '2.5.0',
+587 silly addNameRange     '2.4.1',
+587 silly addNameRange     '2.4.0',
+587 silly addNameRange     '2.3.0',
+587 silly addNameRange     '2.1.18',
+587 silly addNameRange     '2.2.0',
+587 silly addNameRange     '2.1.17',
+587 silly addNameRange     '2.1.16',
+587 silly addNameRange     '2.1.15',
+587 silly addNameRange     '2.1.14',
+587 silly addNameRange     '2.1.13',
+587 silly addNameRange     '2.1.12',
+587 silly addNameRange     '2.1.11',
+587 silly addNameRange     '2.1.10',
+587 silly addNameRange     '2.1.9',
+587 silly addNameRange     '2.1.8',
+587 silly addNameRange     '2.1.7',
+587 silly addNameRange     '2.1.6',
+587 silly addNameRange     '2.1.5',
+587 silly addNameRange     '2.1.4',
+587 silly addNameRange     '2.1.3',
+587 silly addNameRange     '2.1.2',
+587 silly addNameRange     '2.1.1',
+587 silly addNameRange     '2.1.0',
+587 silly addNameRange     '2.0.2',
+587 silly addNameRange     '2.0.1',
+587 silly addNameRange     '2.0.0',
+587 silly addNameRange     '1.4.28',
+587 silly addNameRange     '2.0.0-beta.3',
+587 silly addNameRange     '1.4.27',
+587 silly addNameRange     '2.0.0-beta.2',
+587 silly addNameRange     '1.4.26',
+587 silly addNameRange     '2.0.0-beta.1',
+587 silly addNameRange     '1.4.25',
+587 silly addNameRange     '2.0.0-beta.0',
+587 silly addNameRange     '2.0.0-alpha.7',
+587 silly addNameRange     '2.0.0-alpha.6',
+587 silly addNameRange     '1.4.24',
+587 silly addNameRange     '2.0.0-alpha.6.0',
+587 silly addNameRange     '1.4.23',
+587 silly addNameRange     '1.4.22',
+587 silly addNameRange     '2.0.0-alpha-5',
+587 silly addNameRange     '1.5.0-alpha-4',
+587 silly addNameRange     '1.5.0-alpha-3',
+587 silly addNameRange     '1.4.21',
+587 silly addNameRange     '1.5.0-alpha-2',
+587 silly addNameRange     '1.4.20',
+587 silly addNameRange     '1.5.0-alpha-1',
+587 silly addNameRange     '1.5.0-alpha-0',
+587 silly addNameRange     '1.4.19',
+587 silly addNameRange     '1.4.18',
+587 silly addNameRange     '1.4.17',
+587 silly addNameRange     '1.2.8000',
+587 silly addNameRange     '1.4.16',
+587 silly addNameRange     '1.4.15',
+587 silly addNameRange     '1.4.14',
+587 silly addNameRange     '1.4.13',
+587 silly addNameRange     '1.4.12',
+587 silly addNameRange     '1.4.11',
+587 silly addNameRange     '1.4.10',
+587 silly addNameRange     '1.4.9',
+587 silly addNameRange     '1.4.8',
+587 silly addNameRange     '1.3.21',
+587 silly addNameRange     '1.2.23',
+587 silly addNameRange     '1.4.7',
+587 silly addNameRange     '1.4.0',
+587 silly addNameRange     '1.3.12',
+587 silly addNameRange     '1.4.6',
+587 silly addNameRange     '1.4.4',
+587 silly addNameRange     '1.3.24',
+587 silly addNameRange     '1.3.23',
+587 silly addNameRange     '1.3.20',
+587 silly addNameRange     '1.3.17',
+587 silly addNameRange     '1.3.14',
+587 silly addNameRange     '1.3.11',
+587 silly addNameRange     '1.3.7',
+587 silly addNameRange     '1.2.30',
+587 silly addNameRange     '1.2.28',
+587 silly addNameRange     '1.2.27',
+587 silly addNameRange     '1.2.25',
+587 silly addNameRange     '1.4.5',
+587 silly addNameRange     '1.4.3',
+587 silly addNameRange     '1.4.2',
+587 silly addNameRange     '1.4.1',
+587 silly addNameRange     '1.3.26',
+587 silly addNameRange     '1.3.25',
+587 silly addNameRange     '1.3.22',
+587 silly addNameRange     '1.3.18',
+587 silly addNameRange     '1.3.16',
+587 silly addNameRange     '1.3.15',
+587 silly addNameRange     '1.3.13',
+587 silly addNameRange     '1.3.10',
+587 silly addNameRange     '1.3.9',
+587 silly addNameRange     '1.3.8',
+587 silly addNameRange     '1.3.6',
+587 silly addNameRange     '1.3.5',
+587 silly addNameRange     '1.1.71',
+587 silly addNameRange     '1.1.70',
+587 silly addNameRange     '1.2.19',
+587 silly addNameRange     '1.3.1',
+587 silly addNameRange     '1.3.0',
+587 silly addNameRange     '1.2.31',
+587 silly addNameRange     '1.2.24',
+587 silly addNameRange     '1.2.22',
+587 silly addNameRange     '1.2.21',
+587 silly addNameRange     '1.2.20',
+587 silly addNameRange     '1.3.4',
+587 silly addNameRange     '1.3.2',
+587 silly addNameRange     '1.2.32',
+587 silly addNameRange     '1.1.25' ] ]
+588 silly addNamed npm@3.8.5
+589 verbose addNamed "3.8.5" is a plain semver version for npm
+590 silly mapToRegistry name npm
+591 silly mapToRegistry using default registry
+592 silly mapToRegistry registry https://registry.npm.taobao.org/
+593 silly mapToRegistry uri https://registry.npm.taobao.org/npm
+594 verbose addRemoteTarball https://registry.npm.taobao.org/npm/download/npm-3.8.5.tgz not in flight; adding
+595 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/npm/download/npm-3.8.5.tgz',
+595 verbose addRemoteTarball   '12ee77ee3af916854e5b20930b43ee5158dc9162' ]
+596 info retry fetch attempt 1 at 4:01:02 PM
+597 info attempt registry request try #1 at 4:01:02 PM
+598 http fetch GET https://registry.npm.taobao.org/npm/download/npm-3.8.5.tgz
+599 http fetch 200 https://registry.npm.taobao.org/npm/download/npm-3.8.5.tgz
+600 silly fetchAndShaCheck shasum 12ee77ee3af916854e5b20930b43ee5158dc9162
+601 verbose addTmpTarball /tmp/npm-5942-50d44ea4/registry.npm.taobao.org/npm/download/npm-3.8.5.tgz not in flight; adding
+602 verbose addTmpTarball already have metadata; skipping unpack for npm@3.8.5
+603 warn install Couldn't install optional dependency: EACCES: permission denied, mkdir '/home/sven/.npm/npm/3.8.5'
+604 verbose install Error: EACCES: permission denied, mkdir '/home/sven/.npm/npm/3.8.5'
+604 verbose install     at Error (native)
+605 silly loadAllDepsIntoIdealTree Finishing
+606 silly idealTree:prePrune /usr/local/lib
+607 silly loadIdealTree Finishing
+608 silly currentTree /usr/local/lib
+609 silly idealTree /usr/local/lib
+610 silly generateActionsToTake Starting
+611 silly install generateActionsToTake
+612 silly generateActionsToTake Finishing
+613 silly diffTrees action count 0
+614 silly decomposeActions action count 0
+615 silly executeActions Starting
+616 silly install executeActions
+617 silly doSerial global-install 0
+618 silly doParallel fetch 0
+619 verbose lock using /home/sven/.npm/_locks/staging-3a08f0df5026584d.lock for /usr/local/lib/node_modules/.staging
+620 verbose unlock done using /home/sven/.npm/_locks/staging-3a08f0df5026584d.lock for /usr/local/lib/node_modules/.staging
+621 silly rollbackFailedOptional Starting
+622 silly rollbackFailedOptional Finishing
+623 silly runTopLevelLifecycles Starting
+624 silly runTopLevelLifecycles Finishing
+625 silly install printInstalled
+626 verbose stack Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/.staging'
+626 verbose stack     at Error (native)
+627 verbose cwd /home/sven/Desktop/sundapeng/node-web/react-web/build
+628 error Linux 3.13.0-69-generic
+629 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "cnpm" "--registry=https://registry.npm.taobao.org"
+630 error node v5.0.0
+631 error npm  v3.3.6
+632 error path /usr/local/lib/node_modules/.staging
+633 error code EACCES
+634 error errno -13
+635 error syscall mkdir
+636 error Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/.staging'
+636 error     at Error (native)
+636 error  { [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/.staging']
+636 error   errno: -13,
+636 error   code: 'EACCES',
+636 error   syscall: 'mkdir',
+636 error   path: '/usr/local/lib/node_modules/.staging' }
+637 error Please try running this command again as root/Administrator.
+638 verbose exit [ -13, true ]

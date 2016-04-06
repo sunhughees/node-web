@@ -10,7 +10,20 @@
     <div id="example"></div>
     <script type="text/babel">
       // ** Our code goes here! **
-      
+    var UserGist = React.createClass({
+      getInitialState: function() {
+        return {
+          username: '',
+          lastGistUrl: ''
+        };
+      },
+
+      componentDidMount: function() {
+        $.get(this.props.source, function(result) {
+          
+        })
+      }
+    })  
     </script>
   </body>
 </html>

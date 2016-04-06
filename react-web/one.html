@@ -10,5 +10,19 @@
 	</head>
 	<body>
 		<div id="hello"></div>
+		<div id="example"></div>
+		<script type="text/babel">
+			var names = ["Alice", "Emily", "Kate"];
+
+			ReactDOM.render(
+				<div>
+				{
+					names.map(function (name) {
+						return <div>Hello, {name}!</div>
+					})
+				}
+				</div>,
+				document.getElementById('example'))
+		</script>
 	</body>
 </html>

@@ -5,11 +5,9 @@
 git add --all
 
 #2. write commits
-titles="Email:svendapeng@163.com"
-dates=`date`
-comments=`git status | egrep "((mod)|(new f)|(del)).*:"`
-git commit -m $titles$dates"Changes lists:\n"$comments
-# echo $titles" "$dates" "$comments
+
+git status | egrep "((mod)|(new f)|(del)).*:" > comments.tem
+git commit -F comments.tem
 
 #3. push
 git push

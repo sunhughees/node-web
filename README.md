@@ -4,4 +4,5 @@
 * 学习ES6
 * 学习React
 * 学习Backbone.js
+* 学习Electron
 

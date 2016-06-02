@@ -11,3 +11,6 @@ git commit -F comments.tem
 
 #3. push
 git push
+
+#4. remove temporary file
+rm comments.tem

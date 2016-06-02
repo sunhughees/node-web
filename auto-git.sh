@@ -8,7 +8,7 @@ git add --all
 titles="Email:svendapeng@163.com"
 dates=`date`
 comments=`git status | egrep "((mod)|(new f)|(del)).*:"`
-git commits -m $titles$dates"Changes lists:\n"$comments
+git commit -m $titles$dates"Changes lists:\n"$comments
 # echo $titles" "$dates" "$comments
 
 #3. push

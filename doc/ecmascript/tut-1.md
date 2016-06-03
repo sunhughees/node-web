@@ -1,4 +1,6 @@
-总结一下Ecmascript和javascript不一样的地方
+总结一下Ecmascript和javascript不一样的地方(1)
+
+>ES6的语法有很多和过去Javascript不一样的地方，记录一下方便注意。
 
 #1.let和const命令
 

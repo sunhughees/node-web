@@ -52,6 +52,7 @@ var Navigation = React.createClass({
 
 	render: function () {
 		var config = this.props.config;
+
 		var items = config.map(function (item, index) {
 			var children, dropdown;
 			if (item.children) {
@@ -64,11 +65,13 @@ var Navigation = React.createClass({
 						</li>
 					);
 				});
+
 				var dropdownClass = 'navigation__dropdown';
 				if (this.state.openDropdown === index) {
 					dropdownClass += 'navigation__dropdown__open';
 				}
 				console.log(this.state.openDropdown, index);
+
 				dropdown = (
 					<ul className={ dropdownClass }>
 						{ children }
@@ -76,13 +79,15 @@ var Navigation = React.createClass({
 				);
 			}
 			return (
-				<li className="navigation__item">
+				<li className="navigation__item" onMouseOut={ this.closeDropdown } onMouseOver={ this.openDropdown.bind(this, index) }>
 					<a className="navigation__link" href={ item.href }>
 						{item.text}
 					</a>
+					{ dropdown }
 				</li>
 				);
-		});
+		}, this);
+
 		return (
 			<div className="navigation">
 				{ items }
